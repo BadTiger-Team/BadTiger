@@ -1,0 +1,12 @@
+{
+//Made By ELWAER M For EM Client & Badtiger 
+  "screen_background": {
+    "type": "image",
+    "size": [ "100%" , "100%" ],
+    "fill": true,
+    "texture": "textures/ui/screen_background",
+    "layer": -10,
+    "$screen_background_alpha|default": 0.23
+  }
+//Made By ELWAER M For EM Client & Badtiger
+}

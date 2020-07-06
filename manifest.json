@@ -1,0 +1,76 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description": "§6BadTiger Client Its A Pack Inspired By Some Client For Java",
+      "name" : "§6BadTiger Client §aV2.1",
+      "uuid" : "73f80bcb-c52f-4020-8bfd-41c58acf51a9",
+      "min_engine_version": [ 1,9,0 ],
+      "version" : [ 0, 2, 4 ]
+   },
+   "min_engine_version": [ 1,9,0 ],
+   "modules" : [
+      {
+         "description" : "HJN",
+         "type" : "resources",
+         "uuid" : "136b5963-37a6-41c0-b72d-c3c0eef58101",
+         "version" : [ 2, 0, 0 ]
+      }
+   ],
+   "subpacks": [
+{
+"folder_name": "crosshair 1",
+"name": "§bBlue Crosshair",
+"memory_tier": 1
+},
+{
+"folder_name": "crosshair 3",
+"name": "§7Invisible Crosshair",
+"memory_tier": 1
+},
+{
+"folder_name": "crosshair 12",
+"name": "§bRain§6bow Crosshiar",
+"memory_tier": 1
+},
+{
+"folder_name": "Ultra Glint Mod",
+"name": "Ultra Glint §bMod",
+"memory_tier": 1
+},
+{
+"folder_name": "blood crit",
+"name": "Blood Particles Critcal Mod",
+"memory_tier": 1
+},
+{
+"folder_name": "badlion crit",
+"name": "Badlion Particles Critcal Mod",
+"memory_tier": 1
+},
+{
+"folder_name": "optifine mod",
+"name": "Optifine Mod",
+"memory_tier": 1
+},
+{
+"folder_name": "Keystrokes",
+"name": "Keystrokes Fake Mod",
+"memory_tier": 1
+},
+{
+"folder_name": "Night",
+"name": " Night Time Changer",
+"memory_tier": 1
+},
+{
+"folder_name": "godmode",
+"name": "§6PvP Mode",
+"memory_tier": 1
+},
+{
+"folder_name": "None",
+"name": "Nothing",
+"memory_tier": 1
+      }
+   ]
+}

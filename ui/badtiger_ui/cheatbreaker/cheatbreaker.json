@@ -1,0 +1,23 @@
+// THIS FILE OWNER BY HJN FOR BADTIGER UI
+{
+    "namespace": "images",
+      "ok": {
+        "type": "image",
+    
+        "texture": "textures/cheatbreaker/ok",
+        "size": [ "80%", "80%" ]
+      },
+      "wow": {
+        "type": "image",
+    
+        "texture": "textures/cheatbreaker/wow",
+        "size": [ "80%", "80%" ]
+      },
+      "skins": {
+        "type": "image",
+    
+        "texture": "textures/cheatbreaker/skins",
+        "size": [ "80%", "80%" ]
+      }
+
+}

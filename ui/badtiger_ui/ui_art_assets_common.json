@@ -1,0 +1,28 @@
+{
+  "namespace": "title_image",
+  "title_image": {
+    "type": "panel",
+    "layer": 33,
+    "size": [
+      200,
+      37.70661157024793
+    ],
+    "$title_image_size|default": [
+      "250%",
+      "250%"
+    ],
+    "controls": [
+      {
+        "title_image": {
+          "type": "image",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": "$title_image_size",
+          "anims": "$title_image_animation",
+          "texture": "badtigertitle",
+          "offset": [ "-2%", "-1%" ]
+        }
+      }
+    ]
+  }
+}

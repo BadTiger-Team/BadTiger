@@ -1,0 +1,68 @@
+
+{
+  "namespace": "information_section",
+
+// Info Button & Section
+  
+  "info_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "info_button_toggle",
+    "$glyph_texture": "textures/icons/info_icon",
+    "$glyph_color_texture": "textures/icons/info_icon",
+    "$glyph_size": [ 17, 17 ],
+    "$button_text": "Info",
+    "$toggle_property_bag": {
+      "#panel_title": "Info"
+    }
+  },
+  "advanced_video_options_toggle@settings_common.option_toggle_control": {
+    "$toggle_name": "Show Feature Info",
+    "$toggle_state_binding_name": "#advanced_video_options"
+  },
+    
+  "info_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "info_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {"0": {"type": "label","font_type":"smooth","font_scale_factor": 2,"text": "§6Badtiger v2.1 First Official Release"}},
+	    {"0": {"type": "label","font_type":"smooth","text": "Makers: HJN, Redz, Ryan_gg, Holymeme, ZNGods,ELWAER M,Jakrey"}},
+	   {"0": {"type": "label","text": ""}},
+	{"0": {"type": "label","font_type":"smooth","text": "§4Note : This is Just a Texture Pack its not the Real Client"}},
+	{"0": {"type": "label","font_type":"smooth","text": "§4Note 2  : The CrossHair Mods Maybe Will wont Work For Some Devices"}},
+	   {"0": {"type": "label","text": ""}},
+	  {"0": {"type": "label","font_type":"smooth","text": "§4The Default Features"}},
+	  {"0": {"type": "label","font_type":"smooth","text": "Support Mcpe Versions:1.16 , +Beta."}},
+	  {"0": {"type": "label","font_type":"smooth","text": "§6Tab And Auto Complate chat, No more help button, Custom Shield"}},
+		{"0": {"type": "label","font_type":"smooth","text": "§6Skin Hud,Clear Chat,Clear Water Reflection"}},
+		{"0": {"type": "label","font_type":"smooth","text": "§6No Animation,Screenshot Button,Gui Logo(badlion)"}},
+		   {"0": {"type": "label","text": ""}},
+		  {"0": {"type": "label","font_type":"smooth","text": "Spacial Thanks To TryHardMonkey To Make"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "The Hand Like Pc"}},
+		   {"0": {"type": "label","text": ""}},
+		  {"0": {"type": "label","font_type":"smooth","text": "§4The Mods Features"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "PVP Mode Includes"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "RGB Particles,Clean Gui,No Boss Bar,Clear Wool,Better Fps"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "Bat Death Sound"}},
+		   {"0": {"type": "label","text": ""}},
+		  {"0": {"type": "label","font_type":"smooth","text": "OPTIFINE Mod Includes"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "No Tall Grass,Clear Glass,Very Clean Water,No Animations"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "No Vignettes,Full Stone And Grass Sides,Low Fire"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "Fixed Clouds Render."}},
+		   {"0": {"type": "label","text": ""}},
+		  {"0": {"type": "label","font_type":"smooth","text": "Ultra Glint Java Info:"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "Its a Mod Makes The Items 283x Pixel Whitch is Makes"}},
+		  {"0": {"type": "label","font_type":"smooth","text": "The Glint Ultra Smooth Like Pc"}},
+        }
+      },
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+/*
+=========================================
+|                                       |
+|           Made By ELWAER M     And HJN       |
+|                                       |
+=========================================
+*/
+{
+    "namespace": "logo",
+     "em_logo": {
+     "type": "image",
+     "texture": "ui/badtiger_ui/img/logo",
+     "anchor_from": "bottom_right",
+     "anchor_to": "bottom_right",
+     "size": [ 100, 40 ],
+     "offset": [ -3, 5 ],
+     "layer": 4
+     }
+}
+/*
+=========================================
+|                                       |
+|           Made By ELWAER M      And HJN      |
+|                                       |
+=========================================
+*/
